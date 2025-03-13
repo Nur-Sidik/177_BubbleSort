@@ -88,4 +88,5 @@ void bubbleSortArray()
 int main(){
     input();
     bubbleSortArray();
+    display();
 }
