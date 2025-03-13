@@ -46,3 +46,23 @@ void bubbleSortArray()
         pass = pass + 1; // step 4
     }while(pass <= n-1); // step 5
 }
+
+void display (){
+    cout << endl;
+    cout << "============================" << endl;
+    cout << "Element array telah tersusun" << endl;
+    cout << "============================" << endl;
+    
+    for (int j=0; j<=n-1; j++){
+        cout << arr[j];
+        if (j<n-1){
+            cout << "-->";
+        }
+    }
+}
+
+int main(){
+    input();
+    bubbleSortArray();
+    display();
+}
